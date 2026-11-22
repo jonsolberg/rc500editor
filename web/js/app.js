@@ -6,7 +6,7 @@
   'use strict';
 
   var P = window.RC500P, L = P.L, RC0 = window.RC0, PF = window.RCPlatform, AU = window.RCAudio;
-  var VERSION = '2.48';
+  var VERSION = '2.49';
 
   // ------------------------------------------------------------------ state
   var S = {
@@ -1319,8 +1319,9 @@
         h('li', null, 'The editor never deletes the pedal’s files: it writes the older of the two copies the RC-500 keeps (MEMORY1/2.RC0, SYSTEM1/2.RC0) with a newer save counter, so the previous version stays as a fallback. It warns if the pedal has newer changes than the ones you loaded.'),
         h('li', null, 'Imported audio is converted to 44.1 kHz 32-bit float stereo WAV, which the RC-500 reads directly.')),
       h('h3', null, 'Credits & licence'),
-      h('p', null, 'By Jon Solberg. Free software under the GNU GPL v3 or later. ',
-        h('a', { href: 'https://github.com/jonsolberg/rc500editor', target: '_blank', rel: 'noopener' }, 'Source code on GitHub'), '.'),
+      h('p', null, '© 2026 Jon Solberg. Free software under the GNU GPL v3 or later. ',
+        h('a', { href: 'https://github.com/jonsolberg/rc500editor', target: '_blank', rel: 'noopener' }, 'Source code on GitHub'), ' · ',
+        h('a', { href: 'https://jonsolberg.se:8080/', target: '_blank', rel: 'noopener' }, 'jonsolberg.se'), '.'),
       h('p', null, 'File format and parameter encoding were worked out by D. Fleury’s ',
         h('a', { href: 'https://github.com/dfleury2/boss-rc500-editor', target: '_blank', rel: 'noopener' }, 'boss-rc500-editor'), ' (MIT licence). Not affiliated with BOSS or Roland.'),
       h('p', null, h('a', { class: 'kofi', href: 'https://ko-fi.com/jonsolberg', target: '_blank', rel: 'noopener' }, '❤️ Support me on Ko-fi')));

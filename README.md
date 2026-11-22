@@ -10,6 +10,8 @@ Use it in the browser or as a standalone Android app.
 **[Download the Android APK](https://github.com/jonsolberg/rc500editor/releases/latest/download/RC500Editor.apk)** ·
 [all releases](https://github.com/jonsolberg/rc500editor/releases)
 
+To install the APK, allow your browser or file manager to *install unknown apps* when Android asks.
+
 <p align="center">
   <img src="docs/direct.webp" width="760" alt="Direct mode: the RC-500 panel on screen">
 </p>
