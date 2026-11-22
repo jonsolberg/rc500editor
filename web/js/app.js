@@ -6,7 +6,7 @@
   'use strict';
 
   var P = window.RC500P, L = P.L, RC0 = window.RC0, PF = window.RCPlatform, AU = window.RCAudio;
-  var VERSION = '2.49';
+  var VERSION = '2.50';
 
   // ------------------------------------------------------------------ state
   var S = {
